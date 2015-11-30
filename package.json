@@ -1,0 +1,45 @@
+{
+  "name": "dustjs-helper-formatdate",
+  "version": "0.2.0",
+  "author": {
+    "name": "Adam Bene",
+    "url": "https://github.com/adambene"
+  },
+  "homepage": "https://github.com/adambene/dustjs-helper-formatdate",
+  "description": "Date formatting helper for Dust.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "main": "./lib/index",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adambene/dustjs-helper-formatdate.git"
+  },
+  "keywords": [
+    "templates",
+    "views",
+    "helper",
+    "helpers",
+    "dust",
+    "dustjs",
+    "format",
+    "date",
+    "time",
+    "locale",
+    "moment"
+  ],
+  "dependencies": {
+    "moment": "2.8.3"
+  },
+  "license": "MIT",
+  "gitHead": "c32fcc4d288920f1efdb0fcda04d0bd366f2d8be",
+  "readme": "# Date formatting helper for Dust.js\n\n## For Node.js\n```javascript\nvar dust = require('dustjs-linkedin');\nrequire('dustjs-helpers');\nrequire('dustjs-helper-formatdate');\n```\n\n## For the browser\n```html\n<script src=\"/js/dust.js\"></script>\n<script src=\"/js/moment.js\"></script>\n<script src=\"/js/dustjs-helper-formatdate.js\"></script>\n```\n\n## Use in Dust template\n```html\n<time>\n    {@formatDate date=\"{myDate}\" format=\"YYYY. MMMM Do HH:mm\" lan=\"en-US\"/}\n</time>\n```\n\nor with Dust keys:\n\n```html\n<time>\n    {@formatDate date=\"{myDate}\" format=\"{formatString}\" lan=\"{locale}\"/}\n</time>\n```\n\n# License\nMIT license",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/adambene/dustjs-helper-formatdate/issues"
+  },
+  "_id": "dustjs-helper-formatdate@0.2.0",
+  "_shasum": "16ad1a30e8aaf8f80e6cbf1ae0e2b83a1d4290a6",
+  "_from": "git+https://github.com/zusatzstoff/dustjs-helper-formatdate.git",
+  "_resolved": "git+https://github.com/zusatzstoff/dustjs-helper-formatdate.git#c32fcc4d288920f1efdb0fcda04d0bd366f2d8be"
+}
