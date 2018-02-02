@@ -29,7 +29,7 @@
     "moment"
   ],
   "dependencies": {
-    "moment": "2.8.3"
+    "moment": "2.20.1"
   },
   "license": "MIT",
   "gitHead": "c32fcc4d288920f1efdb0fcda04d0bd366f2d8be",
