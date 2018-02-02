@@ -1,5 +1,7 @@
 # Date formatting helper for Dust.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/alexander-heimbuch/dustjs-helper-formatdate.svg)](https://greenkeeper.io/)
+
 ## For Node.js
 ```javascript
 var dust = require('dustjs-linkedin');
